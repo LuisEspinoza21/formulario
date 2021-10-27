@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section class="container">
+        <aside class="promedio">
+            <div class="col-md-8">
+                <h2>Calcular promedio de parcial</h2>
+                <form>
+                    <br>
+                    parcial 25%:
+                    <input type="text" id="t1">
+                    <br>
+                    <br>
+                    parcial 20%:
+                    <input type="text" id="t2">
+                    <br>
+                    <br>
+                    parcial 25%:
+                    <input type="text" id="t3">
+                    <br>
+                    <br>
+                    parcial 30%:
+                    <input type="text" id="t4">
+                    <br><br>
+                    <input type="button" value="Calcular" onclick="Calcular();">
+                    <input type="reset" value="Limpiar" /><br>
+            </div>
+                </form> 
+        </aside>
+        <aside class="calculo">
+            <div class="col-md-4"></div>
+                <br>
+                <strong>Suma:</strong>
+                <span id="suma"></span>
+                <br>
+                <strong>Promedio:</strong>
+                <span id="promedio"></span>
+            </div>
+        </aside>
+            
+        
+    </section>
+
+    <script src="codigo.js"></script>
+</body>
+</html>

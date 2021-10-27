@@ -1,0 +1,22 @@
+.container{
+    border: 2px solid white;
+    height: 500px;
+    width: 900px;
+}
+.promedio{
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 350px;
+    float: left;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.calculo{
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 100px;
+    float: right;
+    width: 200px;
+    
+}
